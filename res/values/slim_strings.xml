@@ -1564,6 +1564,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="remove_blacklist_entry">Do you want to remove this blacklist entry?</string>
     <string name="select_contact">Select contact</string>
 
+    <!-- Label for are-notifications-enabled checkbox in app details [CHAR LIMIT=20] -->
+    <string name="app_halo_label_black">Blacklist HALO notifications</string>
+    <string name="app_halo_label_white">Whitelist HALO notifications</string> 
+
     <!-- HALO -->
     <string name="halo_enabled_title">Enable HALO</string>
     <string name="halo_enabled_summary">Completely enable or disable HALO</string>
