@@ -32,6 +32,24 @@
         android:summary="@string/lcd_density_summary" />
 
     <PreferenceScreen
+        android:key="xposedapp"
+        android:title="@string/xposedapp_title"
+        android:summary="@string/xposedapp_title_summary" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="de.robv.android.xposed.mods.appsettings"
+            android:targetClass="de.robv.android.xposed.mods.appsettings.XposedModActivity" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="xposedfw"
+        android:title="@string/xposedfw_title"
+        android:summary="@string/xposedfw_title_summary" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="de.robv.android.xposed.installer"
+            android:targetClass="de.robv.android.xposed.installer.XposedInstallerActivity" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:key="notification_drawer"
         android:fragment="com.android.settings.slim.NotificationDrawerSettings"
         android:title="@string/notification_drawer_title" />

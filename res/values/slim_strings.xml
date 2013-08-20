@@ -565,6 +565,12 @@
     <string name="custom_density_dialog_button_got">Got it!</string>
     <string name="custom_density_dialog_button_reboot">Reboot now</string>
 
+    <!-- Xposed Stuff -->
+    <string name="xposedapp_title">Per-App DPI Settings</string>
+    <string name="xposedapp_title_summary">Customize the DPI settings per application</string>
+    <string name="xposedfw_title">Xposed Framework Installer</string>
+    <string name="xposedfw_title_summary">Install framework patch in order to take advantage of the DPI settings</string>
+
     <!-- Shortcut picker -->
     <string name="use_custom_app_title">Use custom application</string>
     <string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
