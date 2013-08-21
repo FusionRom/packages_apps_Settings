@@ -571,6 +571,9 @@
     <string name="xposedfw_title">Xposed Framework Installer</string>
     <string name="xposedfw_title_summary">Install framework patch in order to take advantage of the DPI settings</string>
 
+    <!-- RoundR -->
+    <string name="roundr_settings_title">RoundR</string> 
+
     <!-- Shortcut picker -->
     <string name="use_custom_app_title">Use custom application</string>
     <string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>

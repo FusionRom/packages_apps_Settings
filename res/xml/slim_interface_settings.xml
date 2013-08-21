@@ -20,12 +20,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceScreen
-        android:key="halo"
-        android:fragment="com.android.settings.halo.HaloSettings"
-        android:title="@string/halo_settings_title"
-        android:summary="@string/halo_settings_summary" />
-
-    <PreferenceScreen
         android:key="lcd_density_setup"
         android:fragment="com.android.settings.slim.DensityChanger"
         android:title="@string/lcd_density_title"
@@ -47,6 +41,23 @@
         <intent android:action="android.intent.action.MAIN"
             android:targetPackage="de.robv.android.xposed.installer"
             android:targetClass="de.robv.android.xposed.installer.XposedInstallerActivity" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="halo"
+        android:fragment="com.android.settings.halo.HaloSettings"
+        android:title="@string/halo_settings_title"
+        android:summary="@string/halo_settings_summary" />
+
+    <PreferenceScreen
+        android:key="roundr_settings"
+        android:title="@string/roundr_settings_title">
+
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="mohammad.adib.roundr"
+            android:targetClass="mohammad.adib.roundr.MainActivity" /> 
+
     </PreferenceScreen>
 
     <PreferenceScreen
